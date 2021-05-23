@@ -1,0 +1,76 @@
+h1{
+    color:red
+}
+
+img{
+  border: 15px solid rgba(20, 211, 29, 0.925);
+  border-radius:5px ;
+  
+}
+.grid{
+    display:flex;
+    margin-left: 20px;
+    margin: 20px;
+}
+.grid img{
+    border:2px solid #000000;
+    border-radius: 50px;
+    background-color: turquoise;
+
+}
+.origami{
+    border-radius: 20px;
+    background-color:#ffffff;
+    width:310px;
+    font-family:fantasy;
+    color:black;
+    padding:20px;
+    
+}
+.menu{
+    display:list-item;
+    justify-content: space-between;
+    background-color:#000000;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight:400;
+    padding: 15px;
+    color:#ffffff
+}
+body{
+    background-color:mintcream;
+    margin: 0px;
+}
+.origami{
+    position: relative;
+}
+.info{
+    position:absolute;
+    top:7%;
+    left:3%;
+    font-size: 130%;
+    font-weight: 900;
+    font-family:monospace;
+   font-style: italic;
+    color: orange;
+}
+.bodyimg{
+    background-color: navy;
+}
+a:link{
+    color:brown;
+    justify-content: space-between;
+}
+a:visited{
+    color:brown;
+    text-decoration: none;
+  
+
+}
+.origami:hover{
+    transform: scale(1.2);
+    opacity: 0.7;
+}
+.Aboutus.html{
+    font-size: xx-large;
+}
